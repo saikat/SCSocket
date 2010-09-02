@@ -45,8 +45,8 @@
     }
 }
 
-- (void)sendMessage:(JSObject)jsonData
+- (void)sendMessage:(CPString)aMessage
 {
-    socket.send([CPString JSONFromObject:jsonData]);
+    socket.send(aMessage);
 }
 @end
