@@ -1,4 +1,5 @@
 @import <Foundation/CPObject.j>
+@import "Socket.IO/socket.io.js"
 
 @implementation SCSocket : CPObject
 {
